@@ -343,7 +343,7 @@ a:hover, a:focus, a:active {
 }
 
 .btn-dark {
-  color: #fff !important;
+  color: var(--black) !important;
 }
 
 .btn {
