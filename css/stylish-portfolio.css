@@ -8,10 +8,11 @@
 :root{
   --white: #efefe4;
   --pink: #e3baab;
-  --blue: #89bae3;
+  --lblue: #89bae3;
   --green: #90a592;
   --orange: #d27150;
   --yellow: #f3c95d;
+  --black: #212121;
 }
 
 body,
@@ -49,10 +50,6 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-}
-
-.mb-1 {
-  color: var(--white);
 }
 
 .text-faded {
@@ -325,14 +322,13 @@ a:hover, a:focus, a:active {
 }
 
 .btn-primary {
-  background-color: #1D809F !important;
-  border-color: #1D809F !important;
-  color: #fff !important;
+  background-color: var(--white) !important;
+  border-color: var(--white) !important;
+  color: var(--black) !important;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #155d74 !important;
-  border-color: #155d74 !important;
+  color: var(--orange) !important;
 }
 
 .btn-secondary {
@@ -356,7 +352,7 @@ a:hover, a:focus, a:active {
 }
 
 .bg-primary {
-  background-color: #1D809F !important;
+  background-color: var(--pink) !important;
 }
 
 .text-primary {
@@ -365,4 +361,22 @@ a:hover, a:focus, a:active {
 
 .text-secondary {
   color: #ecb807 !important;
+}
+
+/*CUSTOMIZED*/
+.mb-1 {
+  color: var(--white);
+}
+
+#about {
+  background-color: var(--white);
+  color: var(--black);
+}
+
+#services {
+  background-color: var(--orange) !important;
+}
+
+#portfolio {
+  background-color: var(--yellow);
 }
