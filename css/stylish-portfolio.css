@@ -5,6 +5,15 @@
  */
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+:root{
+  --white: #efefe4;
+  --pink: #e3baab;
+  --blue: #89bae3;
+  --green: #90a592;
+  --orange: #d27150;
+  --yellow: #f3c95d;
+}
+
 body,
 html {
   width: 100%;
@@ -40,6 +49,10 @@ h4,
 h5,
 h6 {
   font-weight: 700;
+}
+
+.mb-1 {
+  color: var(--white);
 }
 
 .text-faded {
